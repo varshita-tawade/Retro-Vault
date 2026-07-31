@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Vault | Exclusive Vintage & Retro Collection</title>
+    
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css " />
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="logo">RETRO <span>VAULT</span></div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">&#9776;</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#features">Experience</a>
+            <a href="#arrivals">Collections</a>
+            <a href="#bnpl">Pay Later</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="sub-heading">Unlocking Timeless Archives</span>
+                    <h1>Curated Vintage Fashion & Artifacts</h1>
+                    <p>Welcome to <strong>Retro Vault</strong> — your primary archive for authentic vintage fashion. We source and restore rare, hand-picked pieces from the 1940s through the 1990s, delivering timeless aesthetic straight to your wardrobe.</p>
+                    <a href="#arrivals" class="btn-primary">Explore Vault</a>
+                </div>
+                <div class="hero-image">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop" alt="Retro Vault Fashion">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">The Vault Distinction</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-gem feature-icon"></i>
+                        <h3>Authenticated Quality</h3>
+                        <p>Every piece is verified, sanitized, and carefully restored by vintage specialists.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-leaf feature-icon"></i>
+                        <h3>Conscious Luxury</h3>
+                        <p>Sustainably breathing second life into iconic, high-end archival fashion.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-plane feature-icon"></i>
+                        <h3>Global Express Shipping</h3>
+                        <p>Fully insured, eco-conscious delivery straight to your doorstep worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Arrivals Section -->
+        <section id="arrivals" class="arrivals-section">
+            <div class="container">
+                <h2 class="section-title">Curated Archives</h2>
+                <div class="slider-wrapper">
+                    <button class="arrow left-arrow" id="leftBtn">&lt;</button>
+                    <div class="products-grid" id="productsGrid">
+                        
+                        <div class="product-card">
+                            <div class="card-img">
+                                <img src="https://images.unsplash.com/photo-1584589167171-541ce45f1eea?q=80&w=300&auto=format&fit=crop" alt="German Scheurich Vase">
+                            </div>
+                            <div class="card-info">
+                                <h4>Scheurich Ceramic Vase</h4>
+                                <p class="price">£90.00</p>
+                                <span class="bnpl-tag">or 4 x £22.50 with <strong>Klarna</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="card-img">
+                                <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=300&auto=format&fit=crop" alt="1950s Fruit Bowl Set">
+                            </div>
+                            <div class="card-info">
+                                <h4>1950s Glassware Set</h4>
+                                <p class="price">£65.00</p>
+                                <span class="bnpl-tag">or 4 x £16.25 with <strong>Clearpay</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="card-img">
+                                <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=300&auto=format&fit=crop" alt="1960s Bossons Plaque">
+                            </div>
+                            <div class="card-info">
+                                <h4>1960s Heritage Plaque</h4>
+                                <p class="price">£48.00</p>
+                                <span class="bnpl-tag">or 4 x £12.00 with <strong>Klarna</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="card-img">
+                                <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=300&auto=format&fit=crop" alt="Glass Decanter">
+                            </div>
+                            <div class="card-info">
+                                <h4>Hand-Cut Glass Decanter</h4>
+                                <p class="price">£60.00</p>
+                                <span class="bnpl-tag">or 4 x £15.00 with <strong>Clearpay</strong></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="arrow right-arrow" id="rightBtn">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Client Services</h2>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out to Retro Vault.');">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Your Inquiry..." rows="4" required></textarea>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Retro Vault Archives. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

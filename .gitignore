@@ -1,0 +1,11 @@
+# NPM & Docker Persistent Data
+Chapter-5/data/
+Chapter-5/letsencrypt/
+data/
+letsencrypt/
+
+# System & Temp Logs
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
