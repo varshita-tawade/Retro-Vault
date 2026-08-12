@@ -11,5 +11,8 @@ JavaScript interaction, and responsive design.
 *  **[Chapter 2: SDLC & BNPL Feature Planning](./Chapter-2/)** -
 User story, product backlog, T-shirt size estimation,
 Definition of Done, Git workflow, and Draft Pull Request.
+* **[Chapter 3: Manual Deployment & Rollback](./Chapter%203/)** -
+This chapter covers manual deployment, production build creation, PM2 process management, deployment verification, failure handling, and rollback.
+It demonstrates how to safely deploy an application and restore the previous stable release when a deployment fails.
 *  **[Chapter 4: Nginx Reverse Proxy](./Chapter-4/)** - Standalone Nginx configuration & compression.
 *  **[Chapter 5: Docker & Nginx Proxy Manager](./Chapter-5/)** - Docker Compose setup, NPM Web UI, Basic Auth, and Exploit Protection.
