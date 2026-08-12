@@ -5,7 +5,7 @@ Welcome to the **Retro Vault** repository. This project covers reverse proxy con
 ---
 
 ## 📂 Project Chapters
-* 🎨 **[Chapter 1: Static Landing Page](./Chapter-1/)** -
+*  **[Chapter 1: Static Landing Page](./Chapter-1/)** -
 Responsive landing page using Semantic HTML, Flexbox, CSS Grid,
 JavaScript interaction, and responsive design.
 *  **[Chapter 2: SDLC & BNPL Feature Planning](./Chapter-2/)** -
